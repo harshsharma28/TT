@@ -1,0 +1,119 @@
+#hero{
+    height: 800px;
+    background-image: url("images/places/italy.jpg");
+    background-position: center;
+    background-size:cover ;
+}
+/* body{
+    height: 800px;
+    background-image: url("images/places/italy.jpg");
+    background-position: center;
+    background-size:cover ;
+} */
+
+
+#hero-content{
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgb(0,75,133, 0.5); */
+    /* background-color: rgb(0,75,160, 0.5); */
+    /* background-color: rgb(245,245,220, 0.5); */
+
+    border-radius: 10px;
+    box-shadow: 2px 10px 25px rgb(255,255,214);
+    text-align: center;
+    padding: 50px 0;
+    margin: auto auto;
+    position: relative;
+    top: 250px;
+    color: bisque;
+    font-size: 30px;
+    font-family: "Fira sans", sans-serif;
+    text-transform: uppercase; 
+    align-items: center;
+
+   
+    /* opacity: calc(35px); */
+}
+#hero-content h1{
+    margin: 0;
+}
+#hero-content p{
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+#hero-content a{
+    text-decoration: none;
+    background-color:gold ;
+    padding: 12px 24px;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    box-shadow: 2px 5px 10px rgb(255,255,214);
+    border-radius: 10px;
+}
+#hero-content a:hover{
+    background-color:rgb(206, 176, 2) ;
+    box-shadow: 2px 5px 10px rgb(206, 176, 2);
+}
+#highlights{
+    padding: 24px;
+    /* background: linear-gradient(45deg, rgb(74, 197, 246),rgb(247, 247, 92)); */
+    /* background: linear-gradient(45deg, #ffbf15,#F2541B, #C91853, #A8186E, #6A0487); */
+    background: linear-gradient(45deg, #feac4e,#F9C683,#ECEAD5 ,#8EDAE6,#39B5C9,#0ba2bc );
+
+    /* background-image: url("/images/places/bg-ch.jpg"); */
+}
+
+
+#destinations {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    
+}
+.des{
+    margin: 0 20px;
+}
+.des p{
+    text-align: center;
+    font-size: 28px;
+    color: rgb(62, 101, 101);
+}
+
+.des img{
+    height: 300px;
+    width: 600px;
+    /* width: 100%; */
+    box-shadow: 10px 12px 20px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.des strong{
+    color:darkblue;
+}
+#highlights h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(30, 30, 30);
+    margin: 24px 0;
+}
+ul a {
+    font-size: 35px;
+    color: bisque;
+    text-shadow: 2px 5px 5px rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+  }
+
+
+
+/* footer{
+    background: linear-gradient(45deg,black,rgb(0, 26, 255));
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    height: 80px;
+    padding: 20px 40px;
+} */
